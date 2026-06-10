@@ -980,6 +980,7 @@ mod tests {
             &mut ctx,
             "Layout".into(),
             discr,
+            vec![0, 1, 2],
             vec![
                 EnumVariant::unit("Aos".into()),
                 EnumVariant::unit("Soa".into()),
