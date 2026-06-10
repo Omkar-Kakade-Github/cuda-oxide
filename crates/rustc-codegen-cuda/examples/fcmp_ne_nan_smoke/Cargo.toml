@@ -2,7 +2,6 @@
 name = "fcmp_ne_nan_smoke"
 version = "0.1.0"
 edition = "2024"
-authors = ["Nihal Pasham <nihalp@nvidia.com>"]
 license = "Apache-2.0"
 
 # Mark as standalone crate (not part of parent workspace)
@@ -10,7 +9,7 @@ license = "Apache-2.0"
 
 # This example demonstrates unified compilation with rustc-codegen-cuda.
 # Build with:
-#   cargo oxide run vecadd
+#   cargo oxide run fcmp_ne_nan_smoke
 # Or manually:
 #   RUSTFLAGS="-Z codegen-backend=path/to/librustc_codegen_cuda.so" cargo build --release
 
